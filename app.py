@@ -4,8 +4,6 @@ from flask import Flask, render_template, request, Response, send_file, redirect
 from warnings import filterwarnings
 from yolov5 import load
 import os
-import cv2 as cv
-from time import time
 
 app = Flask(__name__, static_folder = "static")
 app.config["IMAGE_UPLOADS"] = "static/styles/"
