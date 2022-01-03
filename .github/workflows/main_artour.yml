@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'artour'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2F9A5D536A324B20B5F6DD1DDB0404D0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AADEEF48608F47F0A6EDFB89351B30BC }}
